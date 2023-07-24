@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: pink;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+    transition: all .2s ease-in-out; 
+}
+
+button:hover{
+    transform: scale(1.1); 
+}
+
+.number{
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+.operator{
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+.decimal{
+    border: 5px solid yellow;
+    border-radius: 10px;
+}
+
+.equals{
+    border: 5px solid green;
+    border-radius: 10px;
+}
+
+.clear{
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    width: 300px;
+    border: 1px solid violet;
+    height: 75px;
+    margin: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size:  30px;
+}
+
+.current{
+    font-size:  40px;
+}
